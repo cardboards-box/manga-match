@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="./../global.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CardboardBox.Extensions" Version="2.0.1" />
+	  <PackageReference Include="CardboardBox.Setup" Version="2.0.0" />
+	  <PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
+	  <PackageReference Include="System.Formats.Asn1" Version="8.0.1" />
+	  <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.1" />
+	  <PackageReference Include="System.Text.Json" Version="8.0.5" />
+	</ItemGroup>
+
+</Project>
